@@ -12,6 +12,6 @@ Helper Module for Deep Learning
 """
 
 from .info import __version__
-from .utils import logo
+from .utils import logo, ungzip_file
 
 print(logo())
